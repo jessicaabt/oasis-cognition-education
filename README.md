@@ -24,4 +24,4 @@ The project uses exploratory data analysis and basic statistical modeling, with 
 
 ## Intended Use
 
-This project was completed for an academic statistics course and is intended for educational and exploratory purposes only.
+This project is being completed for an academic statistics course and is intended for educational and exploratory purposes only.
