@@ -16,12 +16,13 @@ Source: [https://sites.wustl.edu/oasisbrains/](https://sites.wustl.edu/oasisbrai
 
 ## Research Questions
 
-- Are MMSE scores associated with years of education among older adults?
+- Are MMSE scores associated with years of education among older adults with and without Alzheimer’s disease?
 - Do MMSE scores differ between individuals diagnosed with Alzheimer’s disease and cognitively normal individuals?
+
 
 ## Methods Overview
 
-The project uses exploratory data analysis and basic statistical modeling, with visualizations designed for interpretation in an introductory statistics context.
+The project uses exploratory data analysis and basic statistical modeling (using R Studio), with visualizations designed for interpretation in an introductory statistics context.
 
 ## Intended Use
 
