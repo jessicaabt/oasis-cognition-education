@@ -11,8 +11,6 @@
 > mean(cleaned_oasis$EDUC)
 [1] 14.33
 > plot(cleaned_oasis$EDUC, cleaned_oasis$MMSE, xlab='Years of Education', ylab='MMSE Score', main='Years of Education and MMSE Score', pch=16)
-> cor(cleaned_oasis$EDUC, cleaned_oasis$MMSE, use = 'complete.obs')
-[1] 0.2355137
 > barplot(table(cleaned_oasis$Group), ylab='Frequency', main='Counts of Diagnostic Group', col='lightblue')
 > boxplot(MMSE~Group, data=cleaned_oasis, ylab='MMSE Score', main='MMSE Score Distribution Between Diagnostic Groups', col=c('lightblue', 'lightpink'))
 > fivenum(cleaned_oasis$MMSE[cleaned_oasis$Group == "Demented"])
