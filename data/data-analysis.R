@@ -55,6 +55,7 @@ F-statistic: 37.23 on 2 and 97 DF,  p-value: 1.001e-12
 > summary(model)$adj.r.squared
 [1] 0.422635
 > library(ggplot2)
+> cleaned_oasis$yhat <- model$fitted.values
 > ggplot(cleaned_oasis, aes(x = EDUC, y = MMSE, col = Group, shape = Group)) + 
 +     geom_point() + xlab("Years of Education") + ylab("MMSE Score") + 
 +     labs(col = "Diagnostic Group", shape = "Diagnostic Group") + ggtitle("MMSE Score by Diagnostic Group and Years of Education") + 
